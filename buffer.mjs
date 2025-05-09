@@ -1,4 +1,4 @@
-const buffer = Buffer.from("M Syamsul Arifin");
+const buffer = Buffer.from("M Syamsul Arifin"); // membuat buffer dari string
 
 console.info(buffer); // menampilkan buffer berupa byte
 console.info(buffer.toString()); // mengubah dari byte ke string
