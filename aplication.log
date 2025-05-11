@@ -1,0 +1,9 @@
+Hello world
+This is an error message
+┌─────────┬────────────┐
+│ (index) │ Values     │
+├─────────┼────────────┤
+│ name    │ 'John Doe' │
+│ age     │ 30         │
+│ city    │ 'New York' │
+└─────────┴────────────┘
