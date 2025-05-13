@@ -1,0 +1,17 @@
+import http from "http";
+
+const server = http.createServer((request, response) => {
+    
+    console.info(request.method);
+    console.info(request.url);
+
+    if (request.url === "/syamsul") {
+        response.write("Hello Syamsul");
+    } else {
+        response.write("Hello HTTP server");
+    }
+
+    response.end();
+});
+
+server.listen(3000);
